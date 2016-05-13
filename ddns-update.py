@@ -55,7 +55,7 @@ if currentip != lastip:
     	print "Response: " + data
 
     	# update the current_ip file
-    	f = open(IP_FILE_PATH, "w+")
+    	f = open(IP_FILE, "w+")
     	f.write(current_ip)
     	f.close()
 else:
